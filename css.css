@@ -1,0 +1,119 @@
+body {
+  background-color: #f1e9e5;
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  font-family: sans-serif;
+  text-decoration: underline;
+  color: #464660;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.description {
+  font-family: sans-serif;
+  color: #464660;
+  text-align: center;
+  font-size: 30px;
+  margin: 30px;
+}
+.div1 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #334756;
+  left: 0;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.div1 a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.div1 a:hover {
+  color: #368b85;
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+
+.div1 a:active {
+  color: #368b85;
+  text-decoration: underline;
+}
+
+.left {
+  margin: 10px;
+  padding: 10px;
+}
+
+.right {
+  position: absolute;
+  right: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.div2 {
+  margin: 10px;
+}
+
+.div2 iframe {
+  border-radius: 5px;
+}
+
+.div3 {
+  margin: 10px;
+}
+
+.div3 iframe {
+  border-radius: 5px;
+}
+
+.div4 {
+  text-align: center;
+  position: relative;
+  background-color: #334756;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  border-radius: 2px 2px 0px 0px;
+}
+
+.div4 footer {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  margin: 5px;
+}
+
+.div4 a {
+  left: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.hideShowButton,
+.hideShowButtonTwo,
+.lightDark {
+  background-color: #368b85;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.darkMode {
+  background-color: #808080;
+  color: white;
+}

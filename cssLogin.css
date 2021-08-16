@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: #464660;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+a:hover {
+  color: #368b85;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #368b85;
+  text-decoration: underline;
+}
+
+.button {
+  background-color: #368b85;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.darkMode {
+  background-color: #202020;
+  color: white;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="cssRegistration.css" />
+    <title>User registration</title>
+  </head>
+  <body class="bodyClass">
+    <center>
+      <form>
+        <label><b>User registration</b></label>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <input type="text" placeholder="First Name" />
+              </td>
+              <td>
+                <input type="text" placeholder="Last Name" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="text" placeholder="Password" />
+              </td>
+              <td>
+                <input type="text" placeholder="Confirm Password" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="radio" name="Sex" />
+                Male
+              </td>
+              <td>
+                <input type="radio" name="Sex" />
+                Female
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="radio" name="Age" />
+                Under 25
+              </td>
+              <td>
+                <input type="radio" name="Age" />
+                Over 25
+              </td>
+            </tr>
+            <tr>
+              <td>Select Course:</td>
+              <td>
+                <select>
+                  <option value="volvo">HTML</option>
+                  /select>
+                  <option value="volvo">CSS</option>
+                  /select>
+                  <option value="volvo">Javascript</option>
+                  /select>
+                  <option value="volvo">Python</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Experience:</td>
+              <td>
+                Entry
+                <input type="checkbox" name="Certificate" />
+                Advanced
+                <input type="checkbox" name="Certificate" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Country:</td>
+              <td>
+                <input list="Country" />
+                <datalist id="Country">
+                  <option value="United Kingdom"></option>
+                  <option value="US"></option>
+                  <option value="Mars"></option>
+                  <option value="The Moon"></option>
+                </datalist>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input class="buttonOne" type="submit" placeholder="Register" />
+              </td>
+            </tr>
+            <tr>
+              <td>Already a member?</td>
+              <td><a href="login.html">Click here</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </center>
+    <footer></footer>
+    <script type="text/javascript" src="jsRegistration.js"></script>
+  </body>
+</html>
